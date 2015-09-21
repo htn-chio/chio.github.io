@@ -1,0 +1,105 @@
+// bower:scss
+// endbower
+
+body {
+  background: #f2f2f2;
+  font-family: 'HelveticaNeue-Thin', 'Helvetica Neue Light', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  color: #333;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'HelveticaNeue-Thin', 'Helvetica Neue Light', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.1em;
+    padding: 10px;
+    text-align: center;
+}
+
+.chio-branding {
+    text-align: center;
+    margin: 10vh auto 40px;
+    top: 40%;
+
+    .chio-logo {
+        max-width: 130px;
+    }
+
+    .chio-text {
+        font-size: 5.75em;
+    }
+
+    .chio-subtext {
+        color: #7e7e7e;
+    }
+}
+
+.chio-features {
+    margin: 0 auto 60px;
+    max-width: 300px;
+
+    @media (min-width: 481px) {
+        max-width: 700px;
+    }
+}
+
+.chio-facebook {
+    margin: 20px 0;
+    img {
+        max-width: 300px;
+    }
+}
+
+.chio-feature {
+    display: inline-block;
+    width: 100%;
+
+    @media (min-width: 481px) {
+        width: 32.33%;
+    }
+}
+
+.chio-apiImageLogo {
+    width: 100%;
+}
+
+.chio-otherFeature {
+    padding: 30px 0 20px;
+}
+
+.chio-footer {
+    color: rgba(255, 255, 255, .4);
+    background-color: #323940;
+    overflow: hidden;
+    padding: 20px 30px;
+
+    a {
+        color: white;
+
+        &:visited,
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.u-text-center {
+    text-align: center;
+}
